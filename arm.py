@@ -45,7 +45,8 @@ class Arm:
             return norm
 
         def a(timestamp: int) -> float:
-            return math.sqrt(math.log(timestamp, math.e))
+            weight = 0.1  # 최적 값 검토 필요.
+            return weight * math.sqrt(math.log(timestamp, math.e))
 
         result = a(current_timestamp) * vector_norm(current_timestamp)
         return result

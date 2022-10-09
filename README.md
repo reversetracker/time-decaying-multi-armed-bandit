@@ -9,10 +9,8 @@ Non-Stationary 케이스에 적용 할 수 있는 multi armed bandit 알고리�
 Test result
 ========
 ### 1. Non-Stationary 케이스
-![시간에 따른 기사의 인기도 하락 그래프](non-stationary.png)
+![시간에 따른 기사의 인기도 하락 그래프](confidence-false.png)
 - 실제 로그를 기반으로 해당 알고리즘을 돌려 얻어 낸 결과 값.
-- 위 그래프는 정상이다.
-- 논문에선 저 앞부분에 날뛰는 부분은 잘라서 보여준다.
 
 ### 2. Stationary 케이스
 - 실제 값에 아주 작은 오차를 가진 값으로 수렴한다.

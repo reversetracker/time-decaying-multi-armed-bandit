@@ -14,7 +14,7 @@ for history in histories.values:
     time, reward = history[1], history[4] > 0
     current_timestamp = int(parser.parse(time).timestamp())
     arm.update(reward=reward, current_timestamp=current_timestamp)
-    result.append(arm.pull(current_timestamp=current_timestamp))
+    result.append(arm.pull(current_timestamp=current_timestamp, confidence=True))
 
 
 print(f"기사 시작 시간: {histories.values[0][1]}")
