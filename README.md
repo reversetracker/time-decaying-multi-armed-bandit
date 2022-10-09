@@ -29,3 +29,8 @@ Install
 The quick way::
 
     pip install -r requirements.txt
+
+
+References
+==========
+* [Time-Decaying bandit algorithms](https://taoqin.github.io/papers/Time-DecayingBanditsForNon-sta.pdf)
